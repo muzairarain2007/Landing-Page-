@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #12345b;
+}
+
+header {
+    padding: 20px 8%;
+    background: white;
+}
+
+header h2 {
+    display: inline;
+    color: #1677d2;
+}
+
+nav {
+    display: inline;
+    margin-left: 25%;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.button {
+    background: #1677e8;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background: #071326;
+    color: white;
+    padding: 70px 8%;
+    height: 300px;
+}
+
+.hero-text {
+    width: 50%;
+    float: left;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero h1 span {
+    color: #1677ff;
+}
+
+.blue {
+    color: #1677e8;
+    font-weight: bold;
+}
+
+.hero-img {
+    width: 45%;
+    float: right;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.learn {
+    color: white;
+    border: 1px solid white;
+    padding: 9px 18px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    padding: 60px 8%;
+    overflow: hidden;
+}
+
+.about-img {
+    width: 40%;
+    float: left;
+}
+
+.about-img img {
+    width: 100%;
+    height: 240px;
+}
+
+.about-text {
+    width: 55%;
+    float: right;
+}
+
+.boxes div {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.boxes p,
+.service-box p,
+.feature-box p {
+    color: #777;
+}
+
+.services {
+    clear: both;
+    text-align: center;
+    padding: 60px 8%;
+    background: #f5f8fb;
+}
+
+.service-box div {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 1%;
+}
+
+.service-box h3:first-child {
+    font-size: 30px;
+}
+
+.features {
+    text-align: center;
+    padding: 60px 8%;
+}
+
+.feature-box div {
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact {
+    margin: 20px 8% 50px;
+    padding: 30px;
+    background: #1677d2;
+    color: white;
+}
+
+.contact a {
+    background: white;
+    color: #1677d2;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+footer {
+    background: #071d3d;
+    color: white;
+    padding: 35px 8%;
+}
+
+footer div {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+}
